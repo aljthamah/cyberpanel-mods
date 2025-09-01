@@ -32,7 +32,7 @@ sh <(curl https://raw.githubusercontent.com/tbaldur/cyberpanel-mods/main/snappym
 
 ______________________________
 # phpMyAdmin version changer v2
-Input version you want to change to e.g 5.2.0
+Input version you want to change to e.g 5.2.2 Updated
 ```
 sh <(curl https://raw.githubusercontent.com/ethamah/cyberpanel-mods/refs/heads/main/phpmyadmin_v2_changer.sh || wget -O - https://raw.githubusercontent.com/ethamah/cyberpanel-mods/refs/heads/main/phpmyadmin_v2_changer.sh)
 ```
