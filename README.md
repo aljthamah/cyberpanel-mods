@@ -34,7 +34,7 @@ ______________________________
 # phpMyAdmin version changer v2
 Input version you want to change to e.g 5.2.2 Updated
 ```
-sh <(curl https://raw.githubusercontent.com/ethamah/cyberpanel-mods/refs/heads/main/phpmyadmin_v2_changer.sh || wget -O - https://raw.githubusercontent.com/ethamah/cyberpanel-mods/refs/heads/main/phpmyadmin_v2_changer.sh)
+sh <(curl https://raw.githubusercontent.com/aljthamah/cyberpanel-mods/refs/heads/main/phpmyadmin_v2_changer.sh || wget -O - https://raw.githubusercontent.com/aljthamah/cyberpanel-mods/refs/heads/main/phpmyadmin_v2_changer.sh)
 ```
 ![imagem](https://user-images.githubusercontent.com/97204751/208486782-a0205d4f-8698-4cdb-bad1-9f47e19bf5ba.png)
 
