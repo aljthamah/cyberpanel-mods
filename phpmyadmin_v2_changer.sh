@@ -53,8 +53,8 @@ case "$confirm" in
     * ) print_err "Invalid choice. Exiting."; exit 1;;
 esac
 
-# Ask user for version
-read -rp "$(echo -e ${BOLD})Enter the phpMyAdmin version you want (e.g. 5.2.2): ${RESET}" phpmyadmin_version
+# Ask user for version (fixed: no raw \033 text shown)
+read -rp $'\033[1mEnter the phpMyAdmin version you want (e.g. 5.2.2):\033[0m ' phpmyadmin_version
 phpmyadmin_version="${phpmyadmin_version// /}" # trim spaces
 
 if [[ -z "$phpmyadmin_version" ]]; then
